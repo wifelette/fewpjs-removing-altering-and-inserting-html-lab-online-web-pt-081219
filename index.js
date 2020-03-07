@@ -1,9 +1,8 @@
 let newHeader = document.createElement('h1')
-document.body.appendChild(newHeader)
 newHeader.className = 'victory'
 newHeader.setAttribute("id", "victory");
 newHeader.innerHTML = 'Leah is the champion'
+document.body.appendChild(newHeader)
 
 
-let nixMe = document.querySelector('main#main')
-nixMe.remove()
+document.querySelector('main#main').remove()
